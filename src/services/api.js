@@ -1,6 +1,6 @@
 // API Service Client connecting Frontend to Express Backend
 
-const API_BASE_URL = 'http://localhost:5001/api';
+const API_BASE_URL = 'https://shuanabus-backend.onrender.com/api';
 
 export async function fetchCities() {
   try {
