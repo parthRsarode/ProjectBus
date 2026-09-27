@@ -1,0 +1,15 @@
+[
+  {
+    "pnr": "SHU-293469-PUN",
+    "busName": "Humsafar Travels",
+    "from": "CIDCO",
+    "to": "Pune",
+    "seatIds": [
+      "L17",
+      "U2"
+    ],
+    "totalAmount": 2169,
+    "status": "CONFIRMED",
+    "createdAt": "2026-09-27T07:14:50.692Z"
+  }
+]

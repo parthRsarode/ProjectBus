@@ -1,0 +1,28 @@
+{
+  "name": "shuana-bus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:backend": "node server/index.js",
+    "start:frontend": "vite --port 3000 --host",
+    "dev": "concurrently \"node server/index.js\" \"vite --port 3000 --host\"",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "vite": "^8.3.1"
+  },
+  "dependencies": {
+    "canvas-confetti": "^1.9.4",
+    "concurrently": "^10.0.5",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.4",
+    "express": "^5.2.1",
+    "razorpay": "^2.9.8"
+  }
+}
